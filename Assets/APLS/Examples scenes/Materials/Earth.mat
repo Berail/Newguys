@@ -57,7 +57,7 @@ Material:
       data:
         first:
           name: _DiffusePower
-        second: .5
+        second: .400999993
       data:
         first:
           name: _AtmPower
@@ -65,23 +65,7 @@ Material:
       data:
         first:
           name: _AtmSize
-        second: .5
-      data:
-        first:
-          name: _Gloss
-        second: 4.21428585
-      data:
-        first:
-          name: _CloudHeight
-        second: .5
-      data:
-        first:
-          name: _CloudOpacity
-        second: .504000008
-      data:
-        first:
-          name: _CloudSpeed
-        second: .00499999989
+        second: .324000001
       data:
         first:
           name: _Intensity
@@ -90,6 +74,22 @@ Material:
         first:
           name: _EmissionFallOff
         second: .878571451
+      data:
+        first:
+          name: _Gloss
+        second: 7.55999994
+      data:
+        first:
+          name: _CloudHeight
+        second: 0
+      data:
+        first:
+          name: _CloudOpacity
+        second: .208000004
+      data:
+        first:
+          name: _CloudSpeed
+        second: 0
     m_Colors:
       data:
         first:
