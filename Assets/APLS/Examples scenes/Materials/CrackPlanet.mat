@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CrackPlanet
+  m_Shader: {fileID: 4800000, guid: b0fb3636ca7c42842b96e63b687d55a5, type: 3}
+  m_ShaderKeywords: _PULSATION_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 2d6df5e18d21c9744a0e3718871b47a6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d9bb4d19fba066241b412668303ec805, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: bcbf6e89d18244547944c2397b01b6cc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _EnableAmbient
+        second: 0
+      data:
+        first:
+          name: _DiffusePower
+        second: .232142821
+      data:
+        first:
+          name: _FullBright
+        second: 0
+      data:
+        first:
+          name: _AtmPower
+        second: 3.76785707
+      data:
+        first:
+          name: _AtmSize
+        second: .571428597
+      data:
+        first:
+          name: _AtmFullBright
+        second: 0
+      data:
+        first:
+          name: _Intensity
+        second: .200000003
+      data:
+        first:
+          name: _EmissionFallOff
+        second: 0
+      data:
+        first:
+          name: _OnlyShadow
+        second: 0
+      data:
+        first:
+          name: _Pulsation
+        second: 1
+      data:
+        first:
+          name: _MinIntensity
+        second: 1.69642854
+      data:
+        first:
+          name: _MaxIntensity
+        second: 2.67857146
+      data:
+        first:
+          name: _PulsationSpeed
+        second: 2.42857146
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmColor
+        second: {r: .921568573, g: .407491505, b: .0745098144, a: 1}

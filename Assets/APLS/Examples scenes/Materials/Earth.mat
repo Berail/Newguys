@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Earth
+  m_Shader: {fileID: 4800000, guid: 6920fa3febbc7d649b173bee49fc0f44, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 53b389cf8fc6f1a4e93d33e77bf6adef, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e761d1b5f99e4c840b58081a41de20d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4c13335a51994ad47a0e7e637f2411ce, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 45af8e4e3c297d9469dce300a22692ac, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CloudMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 0f6d23ed5a921ae4e96df30b181793b2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _EnableAmbient
+        second: 0
+      data:
+        first:
+          name: _DiffusePower
+        second: .5
+      data:
+        first:
+          name: _AtmPower
+        second: 2.32142854
+      data:
+        first:
+          name: _AtmSize
+        second: .5
+      data:
+        first:
+          name: _Gloss
+        second: 4.21428585
+      data:
+        first:
+          name: _CloudHeight
+        second: .5
+      data:
+        first:
+          name: _CloudOpacity
+        second: .504000008
+      data:
+        first:
+          name: _CloudSpeed
+        second: .00499999989
+      data:
+        first:
+          name: _Intensity
+        second: .217857152
+      data:
+        first:
+          name: _EmissionFallOff
+        second: .878571451
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AtmColor
+        second: {r: .0745098069, g: .466666698, b: .921568573, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .253027678, g: .422100544, b: .477941155, a: 1}
+      data:
+        first:
+          name: _CloudColor
+        second: {r: 1, g: 1, b: 1, a: 1}

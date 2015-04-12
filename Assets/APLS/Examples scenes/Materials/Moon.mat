@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Moon
+  m_Shader: {fileID: 4800000, guid: 59c0e469fbd50dc4eb6f9ecc38ee8e1f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _NormalMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 10924f76d489f494f809e5fda2e829b9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 916674a66abb9f14dbe69c8eb7ff72af, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _EnableAmbient
+        second: 0
+      data:
+        first:
+          name: _DiffusePower
+        second: .946428597
+      data:
+        first:
+          name: _FullBright
+        second: 0
+      data:
+        first:
+          name: _AtmPower
+        second: 1
+      data:
+        first:
+          name: _AtmSize
+        second: .5
+      data:
+        first:
+          name: _AtmFullBright
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _AtmColor
+        second: {r: .578070879, g: .586180747, b: .595588207, a: 1}
