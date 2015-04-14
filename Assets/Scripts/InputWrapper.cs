@@ -19,6 +19,8 @@ public class InputWrapper : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(RotateRight);
+      
         mouseAxes.x = Input.GetAxis("Mouse X");
         mouseAxes.y = Input.GetAxis("Mouse Y");
     }
@@ -37,7 +39,17 @@ public class InputWrapper : MonoBehaviour
     {
         get
         {
-            return Input.GetAxisRaw("Vertical");
+            if (Input.GetAxisRaw("Vertical") != 0)
+            {
+                return Input.GetAxisRaw("Vertical");
+            }
+            else if (Input.GetAxis("ThumbLeftVert") != 0)
+            {
+                return Input.GetAxis("ThumbLeftVert");
+            }
+            else
+                return 0;
+           
         }
     }
 
@@ -45,7 +57,19 @@ public class InputWrapper : MonoBehaviour
     {
         get
         {
-            return Input.GetAxisRaw("Horizontal");
+
+            if (Input.GetAxisRaw("Horizontal") != 0)
+            {
+                return Input.GetAxisRaw("Horizontal");
+            }
+            else if (Input.GetAxis("ThumbLeftHor") != 0)
+            {
+                return Input.GetAxis("ThumbLeftHor");
+            }
+            else
+                return 0;
+            
+            
         }
     }
 
@@ -58,6 +82,14 @@ public class InputWrapper : MonoBehaviour
                 return 1;
             }
             else if (Input.GetKey(KeyCode.C))
+            {
+                return -1;
+            }
+            else if (Input.GetButton("RB"))
+            {
+                return 1;
+            }
+            else if (Input.GetButton("LB"))
             {
                 return -1;
             }
@@ -81,6 +113,15 @@ public class InputWrapper : MonoBehaviour
                 return -1;
             else if (Input.GetKey(KeyCode.Q))
                 return 1;
+            else if (Input.GetAxisRaw("RT") < 0)
+            {
+                return -1 * Input.GetAxisRaw("RT");
+            }
+            else if (Input.GetAxisRaw("LT") < 0)
+            {
+                return Input.GetAxisRaw("LT");
+            }
+            
             else return 0;
         }
     }
@@ -93,6 +134,11 @@ public class InputWrapper : MonoBehaviour
                 return 1;
             else if (Input.GetKey(KeyCode.LeftArrow))
                 return -1;
+            
+            else if (Input.GetAxisRaw("ThumbRightHor") != 0)
+            {
+                return Input.GetAxisRaw("ThumbRightHor");
+            }
             else return 0;
         }
     }
@@ -105,6 +151,10 @@ public class InputWrapper : MonoBehaviour
                 return 1;
             else if (Input.GetKey(KeyCode.DownArrow))
                 return -1;
+            else if (Input.GetAxisRaw("ThumbRightVert") != 0)
+            {
+                return Input.GetAxisRaw("ThumbRightVert");
+            }
             return 0;
         }
     }
@@ -112,7 +162,18 @@ public class InputWrapper : MonoBehaviour
     {
         get
         {
-            return Input.GetKeyDown(KeyCode.X);
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                return true;
+            }
+            else if (Input.GetButton("ButtonB"))
+            {
+                return true;
+            }
+            else
+                return false;
         }
     }
+
+   
 }
