@@ -63,7 +63,15 @@ Material:
           m_Texture: {fileID: 2800000, guid: d8a230bff77bf124587cf7842928fd0e, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _Exposure
+        second: .939999998
+      data:
+        first:
+          name: _Rotation
+        second: 0
     m_Colors:
       data:
         first:
@@ -72,4 +80,4 @@ Material:
       data:
         first:
           name: _Tint
-        second: {r: .507352948, g: .507352948, b: .507352948, a: 1}
+        second: {r: .456747383, g: .700632453, b: .941176474, a: 1}

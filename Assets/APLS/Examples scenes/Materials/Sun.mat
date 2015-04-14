@@ -38,16 +38,16 @@ Material:
     m_Floats:
       data:
         first:
+          name: _FullBright
+        second: 1
+      data:
+        first:
           name: _EnableAmbient
         second: 0
       data:
         first:
           name: _DiffusePower
-        second: .5
-      data:
-        first:
-          name: _FullBright
-        second: 1
+        second: .699999988
       data:
         first:
           name: _EnableAtm
@@ -55,11 +55,11 @@ Material:
       data:
         first:
           name: _AtmPower
-        second: 2
+        second: 1
       data:
         first:
           name: _AtmSize
-        second: .5
+        second: .810000002
       data:
         first:
           name: _AtmFullBright
@@ -100,4 +100,4 @@ Material:
       data:
         first:
           name: _AtmColor
-        second: {r: .779411793, g: .445513695, b: .022923898, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
