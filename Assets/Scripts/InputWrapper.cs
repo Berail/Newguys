@@ -20,7 +20,7 @@ public class InputWrapper : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(RotateRight);
+
       
         mouseAxes.x = Input.GetAxis("Mouse X");
         mouseAxes.y = Input.GetAxis("Mouse Y");

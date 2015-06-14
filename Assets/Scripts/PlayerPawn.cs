@@ -38,6 +38,8 @@ public class PlayerPawn : MonoBehaviour
 	void Update ()
 	{
 	    HandleInput();
+        if (Input.GetKeyDown(KeyCode.R))
+            Application.LoadLevel(Application.loadedLevel);
 	}
     #endregion
 
